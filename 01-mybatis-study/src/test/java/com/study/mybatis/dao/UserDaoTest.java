@@ -79,7 +79,7 @@ public class UserDaoTest {
         UserMapper mapper = sqlSession.getMapper(UserMapper.class);
         int i = mapper.deleteUser(1);
         if(i <= 0){
-            System.out.println("删除数据成功");
+            System.out.println("删除数据成功.......");
         }
         sqlSession.commit();
         sqlSession.close();
